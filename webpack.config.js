@@ -64,6 +64,20 @@ module.exports = {
         removeComments: isProd,
         collapseWhitespace: isProd
       }
+    }),
+    new HTMLWebpackPlugin({
+      template: './popular.html',
+      minify: {
+        removeComments: isProd,
+        collapseWhitespace: isProd
+      }
+    }),
+    new HTMLWebpackPlugin({
+      template: './new-item.html',
+      minify: {
+        removeComments: isProd,
+        collapseWhitespace: isProd
+      }
     })
   ],
   module: {

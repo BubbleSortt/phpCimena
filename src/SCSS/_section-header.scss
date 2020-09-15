@@ -1,0 +1,33 @@
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  &__title {
+      font-size: 32px;
+  }
+
+  &__go-to {
+    text-decoration: none;
+    color: #151C22;
+    position: relative;
+    font-size: 18px;
+    display: block;
+    padding: 7px 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 0;
+      bottom: 0;
+      left: -6px;
+      height: 2px;
+      background: #151C22;
+      transition: all .4s;
+    }
+
+    &:hover::before {
+      width: 116%;
+    }
+  }
+}
