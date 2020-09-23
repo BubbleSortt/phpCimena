@@ -37,7 +37,6 @@ module.exports = {
     extensions: ['.js'],
     alias: {
       '@': path.resolve(__dirname, 'src'),
-      '@core': path.resolve(__dirname, 'src/core')
     }
   },
   devtool: isDev ? 'source-map' : false,
@@ -60,6 +59,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HTMLWebpackPlugin({
       template: './index.html',
+      filename: "index.html",
       minify: {
         removeComments: isProd,
         collapseWhitespace: isProd
@@ -67,6 +67,7 @@ module.exports = {
     }),
     new HTMLWebpackPlugin({
       template: './popular.html',
+      filename: "popular.html",
       minify: {
         removeComments: isProd,
         collapseWhitespace: isProd
@@ -74,6 +75,7 @@ module.exports = {
     }),
     new HTMLWebpackPlugin({
       template: './new-item.html',
+      filename: "new-item.html",
       minify: {
         removeComments: isProd,
         collapseWhitespace: isProd
