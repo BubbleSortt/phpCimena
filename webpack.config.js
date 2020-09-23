@@ -62,7 +62,7 @@ module.exports = {
       filename: "index.html",
       minify: {
         removeComments: isProd,
-        collapseWhitespace: isProd
+        //collapseWhitespace: isProd
       }
     }),
     new HTMLWebpackPlugin({
@@ -70,7 +70,7 @@ module.exports = {
       filename: "popular.html",
       minify: {
         removeComments: isProd,
-        collapseWhitespace: isProd
+        //collapseWhitespace: isProd
       }
     }),
     new HTMLWebpackPlugin({
@@ -78,7 +78,7 @@ module.exports = {
       filename: "new-item.html",
       minify: {
         removeComments: isProd,
-        collapseWhitespace: isProd
+       // collapseWhitespace: isProd
       }
     })
   ],
