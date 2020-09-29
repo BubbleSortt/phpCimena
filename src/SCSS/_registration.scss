@@ -1,0 +1,37 @@
+.main-form {
+  width: 30%;
+  background: #fff;
+  border-radius: 15px;
+  margin: 70px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  &__input-wrapper {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    input {
+      width: 100%;
+      padding: 3px 5px;
+    }
+  }
+
+  &__label {
+    margin-bottom: 5px;
+  }
+
+  &__submit {
+    border: none;
+    background: #151C22;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+  }
+}

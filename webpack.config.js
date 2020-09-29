@@ -80,6 +80,22 @@ module.exports = {
         removeComments: isProd,
        // collapseWhitespace: isProd
       }
+    }),
+    new HTMLWebpackPlugin({
+      template: './registration.html',
+      filename: "registration.html",
+      minify: {
+        removeComments: isProd,
+       // collapseWhitespace: isProd
+      }
+    }),
+    new HTMLWebpackPlugin({
+      template: './auth.html',
+      filename: "auth.html",
+      minify: {
+        removeComments: isProd,
+       // collapseWhitespace: isProd
+      }
     })
   ],
   module: {

@@ -20,12 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="all ready">
+      <change afterPath="$PROJECT_DIR$/src/SCSS/_registration.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SCSS/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SCSS/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/new-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/new-item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/popular.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/popular.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,8 +53,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -71,7 +93,9 @@
       <workItem from="1600413968490" duration="401000" />
       <workItem from="1600769793685" duration="132000" />
       <workItem from="1600772138733" duration="564000" />
-      <workItem from="1600848626675" duration="2833000" />
+      <workItem from="1600848626675" duration="3089000" />
+      <workItem from="1600960096692" duration="2439000" />
+      <workItem from="1601401521261" duration="4037000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599916588826</created>
@@ -108,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600851898362</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="all ready">
+      <created>1600852054104</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600852054104</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,10 +176,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="584" y="354" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1599916390028" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600851907821">
+    <state x="144" y="79" key="MergeDialog" timestamp="1600968008780">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600851907821" />
+    <state x="144" y="79" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1600968008780" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600852072799">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600852072799" />
+    <state x="556" y="356" key="WebDeployment.AddServerDialog.v.1" timestamp="1600961300536">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="556" y="356" key="WebDeployment.AddServerDialog.v.1/0.0.1440.900@0.0.1440.900" timestamp="1600961300536" />
+    <state x="517" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600967993364">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="517" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1600967993364" />
     <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599916433931">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
