@@ -19,17 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="all ready">
-      <change afterPath="$PROJECT_DIR$/src/SCSS/_registration.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/registration.html" afterDir="false" />
+    <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="add registration.html and auth.html">
+      <change afterPath="$PROJECT_DIR$/src/2lab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SCSS/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SCSS/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/new-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/new-item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/popular.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/popular.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SCSS/_registration.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_registration.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1lab" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hOehGfqGCTPj274wNSbAJRkuYN" />
@@ -61,17 +64,19 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/SCSS" />
       <recent name="$PROJECT_DIR$/src/SCSS/index" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -95,7 +100,11 @@
       <workItem from="1600772138733" duration="564000" />
       <workItem from="1600848626675" duration="3089000" />
       <workItem from="1600960096692" duration="2439000" />
-      <workItem from="1601401521261" duration="4037000" />
+      <workItem from="1601401521261" duration="4101000" />
+      <workItem from="1601452811361" duration="1702000" />
+      <workItem from="1601477744488" duration="861000" />
+      <workItem from="1601636467612" duration="546000" />
+      <workItem from="1601975155732" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599916588826</created>
@@ -139,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600852054104</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add registration.html and auth.html">
+      <created>1601409995438</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601409995438</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +166,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="2lab" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -165,7 +208,8 @@
     <MESSAGE value="ready section new-item" />
     <MESSAGE value="ready section news &#10;added html for popular and new-item" />
     <MESSAGE value="all ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="all ready" />
+    <MESSAGE value="add registration.html and auth.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add registration.html and auth.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1600849354667">
@@ -180,10 +224,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="79" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1600968008780" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600852072799">
+    <state x="195" y="79" key="SettingsEditor" timestamp="1601478527019">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600852072799" />
+    <state x="195" y="79" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601478527019" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1601410000572">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601410000572" />
     <state x="556" y="356" key="WebDeployment.AddServerDialog.v.1" timestamp="1600961300536">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
