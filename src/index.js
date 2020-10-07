@@ -1,1 +1,0 @@
-import './SCSS/style.scss'

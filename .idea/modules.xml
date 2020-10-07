@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PhpCinema.iml" filepath="$PROJECT_DIR$/.idea/PhpCinema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Cinema.loc.iml" filepath="$PROJECT_DIR$/.idea/Cinema.loc.iml" />
     </modules>
   </component>
 </project>
