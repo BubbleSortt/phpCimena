@@ -96,6 +96,14 @@ module.exports = {
         removeComments: isProd,
        // collapseWhitespace: isProd
       }
+    }),
+    new HTMLWebpackPlugin({
+      template: './favorite.html',
+      filename: "favorite.html",
+      minify: {
+        removeComments: isProd,
+        // collapseWhitespace: isProd
+      }
     })
   ],
   module: {
