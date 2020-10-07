@@ -104,6 +104,14 @@ module.exports = {
         removeComments: isProd,
         // collapseWhitespace: isProd
       }
+    }),
+    new HTMLWebpackPlugin({
+      template: './lk.html',
+      filename: "lk.html",
+      minify: {
+        removeComments: isProd,
+        // collapseWhitespace: isProd
+      }
     })
   ],
   module: {

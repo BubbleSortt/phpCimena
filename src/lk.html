@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Вход</title>
+    <title>Личный кабинет</title>
 </head>
 <body>
 <header>
@@ -13,7 +13,7 @@
         <div class="header__top header-top">
             <div class="header__nav">
                 <a href="index.html" class="header__link">Главная</a>
-                <a href="#" class="header__link">Популярное</a>
+                <a href="popular.html" class="header__link">Популярное</a>
                 <a href="new-item.html" class="header__link">Новинки</a>
             </div>
             <div class="header__auth">
@@ -23,23 +23,17 @@
         </div>
     </div>
 </header>
-<main>
+<main class="">
     <div class="container">
-        <div class="main-form">
-            <form action="" class="form">
-                <div class="form__input-wrapper">
-                    <label class="form__label" for="login">Логин</label>
-                    <input id="login" type="text" class="form__input">
-                </div>
-                <div class="form__input-wrapper">
-                    <label class="form__label" for="password">Пароль</label>
-                    <input id="password" type="password" class="form__input">
-                </div>
-                <button class="form__submit" type="submit">Вход</button>
-            </form>
-        </div>
-    </div>
-</main>
+        <h1 class="new-item-main-title">Личный кабинет</h1>
 
+        <p class="lk-hello">Привет, <span class="lk-login"></span> </p>
+        <p class="lk-id">Ваш идентификатор: <span></span></p>
+        <a href="" class="header__link lk-logout">Выход</a>
+    </div>
+
+
+
+</main>
 </body>
 </html>

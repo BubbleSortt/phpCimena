@@ -84,3 +84,23 @@ body {
   margin-top: 50px;
   text-align: center;
 }
+
+.lk-hello {
+  font-size: 18px;
+}
+
+.lk-login {
+  font-weight: bold;
+}
+
+.lk-logout {
+  color: red;
+}
+
+.lk-id {
+  font-size: 18px;
+  span {
+    font-weight: bold;
+
+  }
+}
