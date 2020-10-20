@@ -17,9 +17,11 @@ include "includes/header.php";
 <main>
     <div class="container">
         <div class="main-form">
-            <form action="includes/signin.php" class="form" method="post">
+            <form action="includes/signin.php" class="form" method="get">
                 <div class="form__input-wrapper">
                     <label class="form__label" for="login">Логин</label>
+                    <!--Строчка value это проверка есть ли в сессии какие - то сообщения о проблемах с авторизацией
+                    в данном случае для логина-->
                     <input id="login" name="login" type="text"
                           value="<?php if(isset($_SESSION['auth_data']['login'])){echo $_SESSION['auth_data']['login'];
                         unset($_SESSION['auth_data']['login']);}?>"  class="form__input">
