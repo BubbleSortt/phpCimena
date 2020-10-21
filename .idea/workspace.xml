@@ -25,15 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="add lk.html">
-      <change afterPath="$PROJECT_DIR$/src/SCSS/_calculator.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/calculator.js" afterDir="false" />
+    <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="add calculator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SCSS/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="2lab" />
+        <entry key="$PROJECT_DIR$" value="1lab" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,7 +107,7 @@
       <workItem from="1601975155732" duration="303000" />
       <workItem from="1603267883911" duration="395000" />
       <workItem from="1603268851114" duration="432000" />
-      <workItem from="1603269604181" duration="12307000" />
+      <workItem from="1603269604181" duration="12546000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599916588826</created>
@@ -178,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602062885718</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add calculator">
+      <created>1603291511783</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603291511783</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +235,8 @@
     <MESSAGE value="add registration.html and auth.html" />
     <MESSAGE value="add favorite.html" />
     <MESSAGE value="add lk.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lk.html" />
+    <MESSAGE value="add calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="add calculator" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1600849354667">
@@ -253,10 +255,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="195" y="79" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601478527019" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602062892005">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603291517047">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1602062892005" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603291517047" />
     <state x="556" y="356" key="WebDeployment.AddServerDialog.v.1" timestamp="1600961300536">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
