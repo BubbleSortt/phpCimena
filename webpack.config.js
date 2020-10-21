@@ -112,6 +112,14 @@ module.exports = {
         removeComments: isProd,
         // collapseWhitespace: isProd
       }
+    }),
+    new HTMLWebpackPlugin({
+      template: './calculator.html',
+      filename: "calculator.html",
+      minify: {
+        removeComments: isProd,
+        // collapseWhitespace: isProd
+      }
     })
   ],
   module: {
