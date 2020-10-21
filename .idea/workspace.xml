@@ -25,9 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="add calculator">
+    <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="clear pattern in html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,7 @@
       <workItem from="1601975155732" duration="303000" />
       <workItem from="1603267883911" duration="395000" />
       <workItem from="1603268851114" duration="432000" />
-      <workItem from="1603269604181" duration="12546000" />
+      <workItem from="1603269604181" duration="13297000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599916588826</created>
@@ -179,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603291511783</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="clear pattern in html">
+      <created>1603291789805</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603291789805</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +242,8 @@
     <MESSAGE value="add favorite.html" />
     <MESSAGE value="add lk.html" />
     <MESSAGE value="add calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="add calculator" />
+    <MESSAGE value="clear pattern in html" />
+    <option name="LAST_COMMIT_MESSAGE" value="clear pattern in html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1600849354667">
@@ -255,10 +262,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="195" y="79" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601478527019" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603291517047">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603291794234">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603291517047" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603291794234" />
     <state x="556" y="356" key="WebDeployment.AddServerDialog.v.1" timestamp="1600961300536">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -12,7 +12,7 @@ if (isTable) {
 
   form.addEventListener('submit', evt => {
     const inputField = document.querySelector('#expression');
-    evt.preventDefault()
+
 
     console.log(typeof inputField.value);
     if (!inputField.value) {
