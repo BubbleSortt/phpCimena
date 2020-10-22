@@ -45,7 +45,7 @@ if (isTable) {
       case '×':
         prevNumber = false;
         break;
-      case '−':
+      case '-':
         prevNumber = false;
         break;
       case '+':
@@ -77,11 +77,9 @@ if (isTable) {
       if (
         (touchedKey === '÷') ||
         (touchedKey === '+') ||
-        (touchedKey === '−') ||
+        (touchedKey === '-') ||
         (touchedKey === '×') ||
-        (touchedKey === ',') ||
-        (touchedKey === ')') ||
-        (touchedKey === '(')
+        (touchedKey === ',')
       ) {
         return false;
       }
