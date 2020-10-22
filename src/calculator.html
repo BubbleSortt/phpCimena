@@ -11,32 +11,41 @@
 <main data-table="true">
     <div class="container">
         <div class="calculator">
+            <div class="error">
+                <span>Вы там это, ошиблись, попробуйте зановоааааааааааааааааа</span>
+            </div>
             <form class="calculator__form" action="">
-                <input class="calculator__input" id="expression" name="expression" type="text" placeholder="0">
+                <input class="calculator__input" id="expression" name="expression" readonly type="text"  placeholder="0">
                 <div class="keyboard">
+                    <div class="keyboard__tr">
+                        <div class="keyboard__td" data-keyboard="(">(</div>
+                        <div class="keyboard__td" data-keyboard=")">)</div>
+                        <div class="keyboard__td" data-keyboard="delete-all">AC</div>
+                        <div class="keyboard__td keyboard__td_operation" data-keyboard="&divide;">&divide;</div>
+                    </div>
                     <div class="keyboard__tr">
                         <div class="keyboard__td" data-keyboard="7">7</div>
                         <div class="keyboard__td" data-keyboard="8">8</div>
                         <div class="keyboard__td" data-keyboard="9">9</div>
-                        <div class="keyboard__td keyboard__td_operation" data-keyboard="&divide;">&divide;</div>
+                        <div class="keyboard__td keyboard__td_operation" data-keyboard="&times;">&times;</div>
                     </div>
                     <div class="keyboard__tr">
                         <div class="keyboard__td" data-keyboard="4">4</div>
                         <div class="keyboard__td" data-keyboard="5">5</div>
                         <div class="keyboard__td" data-keyboard="6">6</div>
-                        <div class="keyboard__td keyboard__td_operation" data-keyboard="&times;">&times;</div>
+                        <div class="keyboard__td keyboard__td_operation" data-keyboard="&#8722;">&#8722;</div>
                     </div>
                     <div class="keyboard__tr">
                         <div class="keyboard__td" data-keyboard="1">1</div>
                         <div class="keyboard__td" data-keyboard="2">2</div>
                         <div class="keyboard__td" data-keyboard="3">3</div>
-                        <div class="keyboard__td keyboard__td_operation" data-keyboard="&#8722;">&#8722;</div>
+                        <div class="keyboard__td keyboard__td_operation" data-keyboard="&#43;">&#43;</div>
                     </div>
                     <div class="keyboard__tr">
                         <div class="keyboard__td" data-keyboard="0">0</div>
                         <div class="keyboard__td" data-keyboard=",">,</div>
                         <div class="keyboard__td" data-keyboard="delete">C</div>
-                        <div class="keyboard__td keyboard__td_operation" data-keyboard="&#43;">&#43;</div>
+                        <button type="submit" class="keyboard__td keyboard__td_operation" data-keyboard="">=</button>
                     </div>
                 </div>
             </form>

@@ -20,6 +20,10 @@
       color: #fff;
     }
   }
+  button {
+    border: none;
+    outline: none;
+  }
 }
 
 .keyboard {
@@ -37,9 +41,10 @@
     margin-bottom: 1px;
     margin-right: 1px;
     user-select: none;
+    font-size: 20px;
 
     &:active {
-      background: #b3b3b3;
+      background: #989898;
     }
 
     &_operation {
@@ -49,5 +54,12 @@
         background: rgb(200, 129, 39);
       }
     }
+  }
+}
+
+.error {
+  margin-bottom: 10px;
+  span {
+    color: #ef3d3d;
   }
 }
