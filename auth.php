@@ -17,7 +17,7 @@ include "includes/header.php";
 <main>
     <div class="container">
         <div class="main-form">
-            <form action="includes/signin.php" class="form" method="get">
+            <form action="includes/signin.php" class="form" method="post">
                 <div class="form__input-wrapper">
                     <label class="form__label" for="login">Логин</label>
                     <!--Строчка value это проверка есть ли в сессии какие - то сообщения о проблемах с авторизацией

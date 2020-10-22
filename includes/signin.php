@@ -2,8 +2,8 @@
 session_start();
 require_once 'db.php';//ПОдключаем бд
 
-$login = $_GET['login'];
-$password = md5($_GET['password']);//Пароль сразу хешируем
+$login = $_POST['login'];
+$password = md5($_POST['password']);//Пароль сразу хешируем
 
 $_SESSION['auth_data'] = array(login => $login);//Сохраняем логин, так как в инпут будем возвращать только его
 
