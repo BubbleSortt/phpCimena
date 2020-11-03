@@ -2,7 +2,7 @@
 session_start();
 if(!isset($_SESSION['user']))
 {
-   header("Location: auth.php");
+   header("Location: Login/login.php");
 }
 ?>
 
@@ -10,14 +10,14 @@ if(!isset($_SESSION['user']))
 <html lang="ru">
 <head>
 <?php
-include_once "includes/links.php";
-include_once "includes/metaInf.php";
+include_once "Shared/links.php";
+include_once "Shared/metaInf.php";
 ?>
 </head>
 
 <body>
 <?php
-include_once "includes/header.php";
+include_once "Shared/header.php";
 ?>
 <main class="">
     <div class="container">
@@ -25,12 +25,12 @@ include_once "includes/header.php";
 
         <p class="lk-hello">Привет, <span class="lk-login"><?php echo $_SESSION['user']['login']?></span> </p>
         <p class="lk-id">Ваш идентификатор: <span><?php echo $_SESSION['user']['id']?></span></p>
-        <a href="includes/logout.php" class="header__link lk-logout">Выход</a>
+        <a href="Login/logout.php" class="header__link lk-logout">Выход</a>
     </div>
 </main>
 
 <?php
-include_once "includes/js.php";
+include_once "Shared/js.php";
 ?>
 </body>
 </html>

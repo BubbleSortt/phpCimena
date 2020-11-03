@@ -1,23 +1,23 @@
 <?php
 session_start();
 if(isset($_SESSION['user'])){
-    header('Location: profile.php');
+    header('Location: ../profile.php');
 }
 ?>
 <!doctype html>
 <html lang="ru">
 <head>
-    <?php require_once  "includes/metaInf.php"?>
-    <?php require_once "includes/links.php"?>
+    <?php require_once "../Shared/metaInf.php" ?>
+    <?php require_once "../Shared/links.php" ?>
 </head>
 <body>
 <?php
-include "includes/header.php";
+include "../Shared/header.php";
 ?>
 <main>
     <div class="container">
         <div class="main-form">
-            <form action="includes/signin.php" class="form" method="post">
+            <form action="signin.php" class="form" method="post">
                 <div class="form__input-wrapper">
                     <label class="form__label" for="login">Логин</label>
                     <!--Строчка value это проверка есть ли в сессии какие - то сообщения о проблемах с авторизацией
@@ -49,6 +49,6 @@ include "includes/header.php";
         </div>
     </div>
 </main>
-<?php include_once "includes/js.php"?>
+<?php include_once "../Shared/js.php" ?>
 </body>
 </html>

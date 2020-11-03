@@ -1,16 +1,16 @@
 <?php
 session_start();
 require $_SERVER['DOCUMENT_ROOT']."/includes/config.php";
+//Конфиг(для запросов в бд) подключается в Shared/links.php
 ?>
-
 <!doctype html>
 <html lang="ru">
 <head>
-    <?php require_once  "includes/metaInf.php"?>
-    <?php require_once "includes/links.php"?>
+    <?php require_once "Shared/metaInf.php" ?>
+    <?php require_once "Shared/links.php" ?>
 <body>
 <?php
-include "includes/header.php";
+include "Shared/header.php";
 ?>
 <main class="main">
     <section class="popular">
@@ -108,6 +108,6 @@ include "includes/header.php";
 <footer class="footer">
 
 </footer>
-<?php include_once "includes/js.php"?>
+<?php include_once "Shared/js.php" ?>
 </body>
 </html>

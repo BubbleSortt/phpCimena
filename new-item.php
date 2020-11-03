@@ -6,12 +6,12 @@ require $_SERVER['DOCUMENT_ROOT']."/includes/config.php";
 <!doctype html>
 <html lang="ru">
 <head>
-    <?php require_once  "includes/metaInf.php"?>
-    <?php require_once "includes/links.php"?>
+    <?php require_once "Shared/metaInf.php" ?>
+    <?php require_once "Shared/links.php" ?>
 </head>
 <body>
 <?php
-include "includes/header.php";
+include "Shared/header.php";
 ?>
 <main class="">
     <h1 class="new-item-main-title">Новинки</h1>
@@ -39,12 +39,12 @@ include "includes/header.php";
                     </div>
                 <?php
                 }
-                ?>
+            ?>
             </div>
         </div>
     </section>
 </main>
 
-<?php include_once "includes/js.php"?>
+<?php include_once "Shared/js.php" ?>
 </body>
 </html>

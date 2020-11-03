@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(isset($_SESSION['user'])){
-    header('Location: profile.php');
+    header('Location: ../profile.php');
 }
 
 ?>
@@ -9,17 +9,17 @@ if(isset($_SESSION['user'])){
 <!doctype html>
 <html lang="ru">
 <head>
-    <?php require_once  "includes/metaInf.php"?>
-    <?php require_once "includes/links.php"?>
+    <?php require_once "../Shared/metaInf.php" ?>
+    <?php require_once "../Shared/links.php" ?>
 </head>
 <body>
 <?php
-include "includes/header.php";
+include "../Shared/header.php";
 ?>
 <main>
     <div class="container">
         <div class="main-form">
-            <form action="includes/signup.php" class="form" method="post">
+            <form action="signup.php" class="form" method="post">
                 <div class="form__input-wrapper">
                     <label class="form__label" for="login">Логин</label>
                     <input value = "<?php if(isset($_SESSION['reg_data']['login'])){echo $_SESSION['reg_data']['login']; unset($_SESSION['reg_data']['login']);}?>"
@@ -74,6 +74,6 @@ include "includes/header.php";
         </div>
     </div>
 </main>
-<?php include_once "includes/js.php"?>
+<?php include_once "../Shared/js.php" ?>
 </body>
 </html>

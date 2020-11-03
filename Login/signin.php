@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'db.php';//ПОдключаем бд
+require_once '../includes/db.php';//ПОдключаем бд
 
 $login = $_POST['login'];
 $password = md5($_POST['password']);//Пароль сразу хешируем
@@ -23,6 +23,6 @@ if(mysqli_num_rows($check_user))
 else
 {
     $_SESSION['messages']['auth_error'] = "Неверный логин или пароль";
-    header('Location: ../auth.php');
+    header('Location: login.php');
 }
 

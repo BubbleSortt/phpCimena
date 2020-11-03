@@ -5,7 +5,7 @@
 <?php
 session_start();
 include_once "includes/metaInf.php";
-include_once "includes/links.php"?>
+include_once "includes/links.php" ?>
 </head>
 <body class="calculator-main">
 <main data-table="true">
@@ -14,7 +14,7 @@ include_once "includes/links.php"?>
             <div class="error">
                 <span><?php echo $_SESSION['calculator']['error'] ?? ""?></span>
             </div>
-            <form class="calculator__form" action="includes/CalculatorController.php" method="get">
+            <form class="calculator__form" action="CalculatorController.php" method="get">
                 <input class="calculator__input" id="expression" name="expression" readonly="readonly" type="text" placeholder="0"
                 value ="<?php  echo (isset($_SESSION['calculator']['error'])) ? ($_SESSION['calculator']['expression'] ?? "") : ($_SESSION['calculator']['result']) ?? "";
                 unset($_SESSION['calculator']['error']); unset($_SESSION['calculator']['expression']); unset($_SESSION['calculator']['result']);
@@ -56,5 +56,5 @@ include_once "includes/links.php"?>
     </div>
 </main>
 
-<?php include_once "includes/js.php"?></body>
+<?php include_once "includes/js.php" ?></body>
 </html>

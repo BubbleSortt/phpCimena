@@ -1,7 +1,7 @@
 <?php
 session_start();//Запускаем сессию
 
-require_once 'db.php';//Подключаем файл с подключением к бд
+require_once '../includes/db.php';//Подключаем файл с подключением к бд
 
 $login = filter_var(trim($_POST['login']), FILTER_SANITIZE_STRING);
 //filter_var фильтрует строку
@@ -35,7 +35,7 @@ if(mysqli_num_rows($check_user))
 //Если массив с сообщениями об ошибках не пустой, то возвращаем их юзеру
 if(!(empty($_SESSION['messages'])))
 {
-    header('Location: ../registration.php');
+    header('Location: registration.php');
     exit();
 }
 else
@@ -43,7 +43,7 @@ else
     //Если все норм, то хешируем пароль и сохраняеь юзера в базу
     $password = md5($password);
     mysqli_query($connection, "INSERT INTO `users`(`login`, `password`) VALUES ('$login', '$password')");
-    header('Location: ../auth.php');//Редиректим на страницу аутентификации
+    header('Location: ../Login/login.php');//Редиректим на страницу аутентификации
     $_SESSION['messages']['success'] = "Успешная регистрация";
 }
 

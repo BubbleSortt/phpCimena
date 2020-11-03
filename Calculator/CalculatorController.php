@@ -1,5 +1,5 @@
 <?php
-require_once "Calculator.php";
+require_once "calculator.php";
 
 $expression = $_GET['expression'];
 $_SESSION['calculator']['expression'] = $expression;

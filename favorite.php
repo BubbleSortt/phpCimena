@@ -1,23 +1,22 @@
 <?php
 session_start();
-if(!isset($_SESSION['user']))
-{
-    header("Location: auth.php");
+if(!isset($_SESSION['user'])) {
+    header("Location: Login/login.php");
 }
+require_once "includes/db.php"
 ?>
 
 <!doctype html>
 <html lang="ru">
 <head>
 <?php
-include_once "includes/links.php";
-include_once "includes/metaInf.php";
+include_once "Shared/links.php";
+include_once "Shared/metaInf.php";
 ?>
 </head>
 <body>
 <?php
-include_once "includes/header.php";
-include_once "includes/metaInf.php";
+include_once "Shared/header.php";
 ?>
 <main class="">
     <h1 class="new-item-main-title">Любимое</h1>
@@ -54,6 +53,6 @@ include_once "includes/metaInf.php";
 
 </main>
 
-<?php include_once "includes/js.php"?>
+<?php include_once "Shared/js.php" ?>
 </body>
 </html>
