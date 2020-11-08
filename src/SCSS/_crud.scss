@@ -1,0 +1,165 @@
+.crud {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+
+    p {
+      width: 20%;
+      max-width: 200px;
+      text-align: center;
+      position: relative;
+    }
+
+    .id {
+      max-width: 35px;
+    }
+
+  }
+
+  &__helper {
+    position: absolute;
+    right: 0;
+  }
+
+  &__body {
+    max-width: 1100px;
+    .cannot-edit [caneditable] {
+      background: transparent;
+      border: none;
+      display: block;
+      resize: none;
+      cursor: default;
+    }
+
+    .cannot-edit {
+      .save-button,
+      .remove-button {
+        opacity: .7;
+        cursor: default;
+
+      }
+    }
+  }
+
+  &__add {
+    display: block;
+    background: #1890ff;
+    border: none;
+    color: #fff;
+    padding: 8px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+  }
+
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: flex-start;
+    margin-bottom: 10px;
+
+    input:disabled,
+    textarea:disabled {
+      background: transparent;
+      border: none;
+      color: black;
+      resize: none;
+    }
+
+    input {
+      width: 20%;
+      max-width: 200px;
+      border: 1px solid #d9d9d9;
+      border-radius: 4px;
+      padding: 3px 3px;
+      text-align: center;
+
+      &:focus {
+        outline: none;
+        border: 1px solid #368dde;
+      }
+
+    }
+
+
+    textarea {
+      border: 1px solid #d9d9d9;
+      border-radius: 4px;
+      padding: 3px 3px;
+
+
+      &:focus {
+        outline: none;
+        border: 1px solid #368dde;
+      }
+
+    }
+
+    .id {
+      max-width: 35px;
+    }
+
+    .textarea {
+      max-width: 200px;
+      min-width: 200px;
+      min-height: 25px;
+      max-height: 60px;
+      text-align: center;
+    }
+
+    .file-input {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+    }
+
+  }
+
+  &__file-wrap {
+    width: 20%;
+    max-width: 200px;
+    text-align: center;
+
+    input[disabled] ~ label {
+      //background: #145ba0;
+      opacity: .7;
+      cursor: default;
+    }
+
+    label {
+      display: block;
+      background: #1890ff;
+      width: 80%;
+      margin: 0 auto;
+      padding: 4px;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+      overflow: hidden;
+      //word-break: break-all;
+      max-height: 24px;
+      text-overflow: ellipsis;
+    }
+  }
+
+  &__actions {
+    position: absolute;
+    right: -100px;
+
+    button {
+      background: #1890ff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 3px 8px;
+      cursor: pointer;
+    }
+  }
+}

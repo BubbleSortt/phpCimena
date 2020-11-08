@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header__top header-top">
+            <div class="header__nav">
+                <a href="index.html" class="header__link">Главная</a>
+                <a href="#" class="header__link">Популярное</a>
+                <a href="new-item.html" class="header__link">Новинки</a>
+            </div>
+            <div class="header__auth">
+                <a href="registration.html" class="header__link">Регистрация</a>
+                <a href="auth.html" class="header__link">Вход</a>
+            </div>
+        </div>
+    </div>
+</header>
+<main crud="true">
+    <div class="container">
+        <div class="crud"></div>
+        <button class="crud__add" data-film-id="">Добaвить фильм</button>
+        <div class="error">
+            <span></span>
+        </div>
+        <div class="crud__table">
+            <div class="crud__header">
+                <p class="id">id</p>
+                <p>title</p>
+                <p>description</p>
+                <p>categorie_id</p>
+                <p>image</p>
+            </div>
+            <div class="crud__body">
+                <!--                <div class="crud__item cannot-edit">-->
+                <!--                    <input type="hidden" value="10-20-2000">-->
+                <!--                    <input class="id" id="id" type="text" disabled value="8">-->
+                <!--                    <input type="text" id="title" value="Патриот своей родины" disabled>-->
+                <!--                    <textarea name="description" class="textarea" id="textarea" cols="30" rows="10" disabled>выдпрыжврполрывлопвырпшгвыпотыв</textarea>-->
+                <!--                    <input type="text" id="categorie" value="крутооой" disabled>-->
+                <!--                    <div class="crud__file-wrap">-->
+                <!--                        <input class="file-input" type="file" id="file">-->
+                <!--                        <label for="file">Выберите фото</label>-->
+                <!--                    </div>-->
+
+                <!--                    <div class="crud__actions">-->
+                <!--                        <button  data-crud-action="remove">-</button>-->
+                <!--                        <button  data-crud-action="edit">P</button>-->
+                <!--                        <button class="hidden" data-crud-action="not-save">X</button>-->
+                <!--                        <button class="hidden" data-crud-action="fetch">S</button>-->
+                <!--                    </div>-->
+
+                <!--                </div>-->
+            </div>
+
+        </div>
+    </div>
+</main>
+</body>
+</html>

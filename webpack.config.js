@@ -120,6 +120,14 @@ module.exports = {
         removeComments: isProd,
         // collapseWhitespace: isProd
       }
+    }),
+    new HTMLWebpackPlugin({
+      template: './crud.html',
+      filename: "crud.html",
+      minify: {
+        removeComments: isProd,
+        // collapseWhitespace: isProd
+      }
     })
   ],
   module: {

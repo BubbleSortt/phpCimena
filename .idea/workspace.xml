@@ -26,10 +26,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="fix calculator">
+      <change afterPath="$PROJECT_DIR$/dist/app.557c7d8adea865e6b261.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/app.557c7d8adea865e6b261.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/crud.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/favorite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/Sonic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/header_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/news_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/popular_item.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/Паразиты.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/lk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/new-item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/popular.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SCSS/_crud.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crud.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/crud.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SCSS/_calculator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_calculator.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SCSS/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +65,17 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1lab" />
+        <entry key="$PROJECT_DIR$" value="crudProd" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/BubbleSortt/phpCimena" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1hOehGfqGCTPj274wNSbAJRkuYN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,6 +86,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="ToolWindowGit.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -281,14 +308,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="556" y="356" key="WebDeployment.AddServerDialog.v.1/0.0.1440.900@0.0.1440.900" timestamp="1600961300536" />
+    <state x="488" y="191" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604831259665">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="488" y="191" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1440.900@0.0.1440.900" timestamp="1604831259665" />
     <state x="517" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600967993364">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="517" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1600967993364" />
-    <state x="468" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602060718183">
+    <state x="468" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604830490040">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="468" y="170" key="git4idea.branch.GitSmartOperationDialog/0.0.1440.900@0.0.1440.900" timestamp="1602060718183" />
+    <state x="468" y="170" key="git4idea.branch.GitSmartOperationDialog/0.0.1440.900@0.0.1440.900" timestamp="1604830490040" />
     <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599916433931">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

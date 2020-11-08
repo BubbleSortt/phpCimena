@@ -6,6 +6,7 @@
 @import "news";
 @import "registration";
 @import "calculator";
+@import "crud";
 
 *, :after, :before {
   -webkit-box-sizing: border-box;
@@ -104,4 +105,8 @@ body {
     font-weight: bold;
 
   }
+}
+
+.hidden {
+  display: none;
 }
