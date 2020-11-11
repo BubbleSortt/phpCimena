@@ -1,11 +1,12 @@
 <?php
 session_start();
+
 require_once '../includes/db.php';//ПОдключаем бд
 
 $login = $_POST['login'];
 $password = md5($_POST['password']);//Пароль сразу хешируем
 
-$_SESSION['auth_data'] = array(login => $login);//Сохраняем логин, так как в инпут будем возвращать только его
+$_SESSION['auth_data'] = array('login' => $login);//Сохраняем логин, так как в инпут будем возвращать только его
 
 //Ищем юзера в базе
 $check_user = mysqli_query($connection, "SElECT * FROM `users` WHERE `login` = '$login' AND `password` = '$password'");

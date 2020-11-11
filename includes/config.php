@@ -1,5 +1,5 @@
 <?php
-/*
+
 $config = array(
     'title' => 'ФильмоПоиск',
     'db' => array(
@@ -10,17 +10,17 @@ $config = array(
     ),
 );
 //Development
-*/
 
+/*
 $config = array(
     'title' => 'ФильмоПоиск',
     'db' => array(
-        'server' => '127.0.0.1',
-        'username' => 'v92757sm',
-        'password' => 'Sanya123321',
-        'name' => 'v92757sm_cinema',
+        'server' => 'localhost',
+        'username' => 'id15064873_makesh_db',
+        'password' => '?6&()pnQ/([~SLQ8',
+        'name' => 'id15064873_cinema_db',
     ),
 );
 //Production
-
+*/
 require "db.php";

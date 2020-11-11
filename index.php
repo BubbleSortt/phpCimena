@@ -8,6 +8,7 @@ require $_SERVER['DOCUMENT_ROOT']."/includes/config.php";
 <head>
     <?php require_once "Shared/metaInf.php" ?>
     <?php require_once "Shared/links.php" ?>
+</head>
 <body>
 <?php
 include "Shared/header.php";
