@@ -26,29 +26,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="fix calculator">
-      <change afterPath="$PROJECT_DIR$/dist/app.557c7d8adea865e6b261.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/app.557c7d8adea865e6b261.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/auth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/calculator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/crud.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/favorite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/Sonic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/header_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/news_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/popular_item.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/Паразиты.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/lk.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/new-item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/popular.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SCSS/_crud.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crud.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/crud.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SCSS/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.557c7d8adea865e6b261.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.557c7d8adea865e6b261.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/auth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/crud.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/crud.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favorite.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/favorite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lk.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/new-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/new-item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/popular.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/crud.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/crud.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +127,8 @@
       <workItem from="1603267883911" duration="395000" />
       <workItem from="1603268851114" duration="432000" />
       <workItem from="1603269604181" duration="16672000" />
+      <workItem from="1604831349580" duration="229000" />
+      <workItem from="1605089451032" duration="1634000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599916588826</created>
@@ -222,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603298652115</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="work please">
+      <created>1604831393690</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604831393690</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +280,8 @@
     <MESSAGE value="add calculator" />
     <MESSAGE value="clear pattern in html" />
     <MESSAGE value="fix calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix calculator" />
+    <MESSAGE value="work please" />
+    <option name="LAST_COMMIT_MESSAGE" value="work please" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1600849354667">
@@ -300,10 +300,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="195" y="79" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601478527019" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603298660837">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604831402767">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603298660837" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604831402767" />
     <state x="556" y="356" key="WebDeployment.AddServerDialog.v.1" timestamp="1600961300536">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

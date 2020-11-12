@@ -220,7 +220,8 @@ if (isCrud) {
 
     let response = await getLast.json()
     let buttonAdd = document.querySelector('.crud__add');
-    buttonAdd.dataset.filmId = (response.id + 1);
+    console.log(response)
+    buttonAdd.dataset.filmId = (response.next_id);
     console.log(buttonAdd.dataset.filmId);
   }
 
