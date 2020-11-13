@@ -58,7 +58,7 @@ if (isCrud) {
                     <textarea name="description" ${!isNew ? 'disabled' : ''} class="textarea description" id="textarea" cols="30" rows="10">${!isNew ? `${film.description}` : ''}</textarea>
                     <input type="text" ${!isNew ? 'disabled' : ''} ${!isNew ? `value="${film.categorie_id}"` : ''}  class="categorie">
                     <div class="crud__file-wrap">
-                        <input class="file-input" type="file" id="file-${idFilm}"  ${!isNew ? 'disabled' : ''}>
+                        <input class="file-input" type="file" accept="image/*" id="file-${idFilm}"  ${!isNew ? 'disabled' : ''}>
                         <label for="file-${idFilm}"> ${!isNew ? `${film.image}` : 'Выберите фото'}</label>
                     </div>
                     <div class="crud__actions">
@@ -179,12 +179,13 @@ if (isCrud) {
         body: formData
       })
         .then(res => {
-          getLastId();
           console.log(res)
         })
         .catch(err => {
-          getLastId();
           console.log(err)
+        })
+        .finally(() => {
+          getLastId()
         })
 
     }

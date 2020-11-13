@@ -25,19 +25,24 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="fix calculator">
+    <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="Build crud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.557c7d8adea865e6b261.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.557c7d8adea865e6b261.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/auth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/calculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/crud.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/crud.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favorite.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/favorite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/lk.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/new-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/new-item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popular.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popular.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.068dca935938be8f932d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.068dca935938be8f932d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/auth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/calculator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/crud.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favorite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/Sonic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/header_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/news_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/popular_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/Паразиты.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/new-item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/popular.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/registration.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/crud.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/crud.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +133,9 @@
       <workItem from="1603268851114" duration="432000" />
       <workItem from="1603269604181" duration="16672000" />
       <workItem from="1604831349580" duration="229000" />
-      <workItem from="1605089451032" duration="1634000" />
+      <workItem from="1605089451032" duration="1846000" />
+      <workItem from="1605274793753" duration="185000" />
+      <workItem from="1605279934530" duration="1016000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599916588826</created>
@@ -221,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604831393690</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Build crud">
+      <created>1605187419567</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605187419567</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +295,8 @@
     <MESSAGE value="clear pattern in html" />
     <MESSAGE value="fix calculator" />
     <MESSAGE value="work please" />
-    <option name="LAST_COMMIT_MESSAGE" value="work please" />
+    <MESSAGE value="Build crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build crud" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1600849354667">
@@ -300,10 +315,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="195" y="79" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601478527019" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1604831402767">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605187428639">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604831402767" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605187428639" />
     <state x="556" y="356" key="WebDeployment.AddServerDialog.v.1" timestamp="1600961300536">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
