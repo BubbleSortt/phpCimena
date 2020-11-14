@@ -9,6 +9,7 @@ $config = array(
         'name' => 'cinema_db',
     ),
 );
+
 //Development
 
 /*

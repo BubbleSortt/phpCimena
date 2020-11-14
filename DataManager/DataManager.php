@@ -1,6 +1,5 @@
 <?php
     require_once '../includes/db.php';
-
             if(isset($_REQUEST['action']))
             {
                 header('Access-Control-Allow-Origin: *');
@@ -25,13 +24,12 @@
                         break;
                 }
             }
-            else
-            {
+            else {
                 $error_json = '{"error":"undefined action"}';
                 http_response_code(500);
                 echo json_encode($error_json);
+                exit();
             }
-
     function AddFilm($pdo)
     {
         $film_id = $_POST['id'];
@@ -166,6 +164,12 @@
         $film_category = $film_category_query->fetch();
         $last_film['categorie_id'] = $film_category['categorie_title'];
 
-        echo json_encode($last_film);
+        $autoincrement_data = $pdo->query("SELECT `AUTO_INCREMENT` FROM INFORMATION_SCHEMA.TABLES WHERE
+            TABLE_SCHEMA = 'id15064873_cinema_db' AND TABLE_NAME = 'films'");
+
+        $autoincrement  = $autoincrement_data->fetch();
+        $last_film['next_id'] = $autoincrement['AUTO_INCREMENT'];
+       echo json_encode($last_film);
+
     }
 ?>
