@@ -1,42 +1,47 @@
 <?php
     require_once '../includes/db.php';
-            //Проверяем в строке запроса значение action
-            if(isset($_REQUEST['action']))
-            {
-                //Заголовки необходимые для того чтобы вернуть json, и установить доступ для всех адресов
-                header('Access-Control-Allow-Origin: *');
-                header('Content-Type: application/json; charset=utf-8');
+    //Проверяем в строке запроса значение action
+    if(isset($_REQUEST['action']))
+    {
+        //Заголовки необходимые для того чтобы вернуть json, и установить доступ для всех адресов
+        header('Access-Control-Allow-Origin: *');
+        header('Content-Type: application/json; charset=utf-8');
 
-                //Проверяем action и вызываем функцию
-                switch($_REQUEST['action'])
-                {
-                    case 'add':
-                        AddFilm($pdo);
-                        break;
-                    case 'edit':
-                        break;
-                    case 'getLast':
-                        GetLastAdded($pdo);
-                        break;
-                    case 'getAll':
-                        GetAllFilms($pdo);
-                        break;
-                    default:
+        //Проверяем action и вызываем функцию
+        switch($_REQUEST['action'])
+        {
+            case 'add':
+                AddFilm($pdo);
+                break;
+            case 'edit':
+                break;
+            case 'getLast':
+                GetLastAdded($pdo);
+                break;
+            case 'getAll':
+                GetAllFilms($pdo);
+                break;
+            default:
 
-                        //Возвращаем ошибку, если action не стандартный
-                        $error_json = '{"error":"unknown action"}';
-                        http_response_code(500);
-                        echo json_encode($error_json);
-                        break;
-                }
-            }
-            else {
-                //Если action вообще не пришел так же возвращаем ошибку
-                $error_json = '{"error":"undefined action"}';
+                //Возвращаем ошибку, если action не стандартный
+                $error_json['error']= "unknown action";
                 http_response_code(500);
                 echo json_encode($error_json);
-                exit();
-            }
+                break;
+        }
+    }
+    else {
+        //Если action вообще не пришел так же возвращаем ошибку
+        $error_json['error'] = "undefined action";
+        http_response_code(500);
+        echo json_encode($error_json);
+        exit();
+    }
+
+    //Основные функции.
+    // Наверное, стоило бы вынести все их в отдельный класс. Но у нас тут все равно так себе апиха :\ .
+    // Маршрутизацию мы тоже не настраивали, потому что надо юзать фреймворки  :(
+    // с .htaccess я до конца не разобрался
     function AddFilm($pdo)
     {
         $film_id = $_POST['id'];
@@ -61,26 +66,26 @@
             {
                 $image = $_FILES['image'];
 
-                //сохраняем формат изображения
-                $image_format = explode('.', $image['name']);
-                $image_format = $image_format[1];
-
-                //сохраняем полное имя изображения изменяя его
-                $image_full_name = $_SERVER['DOCUMENT_ROOT'].'/static/images/'.hash('crc32', date("m.d.y")).'.'.$image_format;
-
-
                 $image_type = $image['type'];
 
                 //проверяем тип файла
                 if($image_type == 'image/jpeg' || $image_type == 'image/png')
                 {
+                    //сохраняем формат изображения
+                    $image_format = explode('.', $image['name']);
+                    $image_format = $image_format[1];
+
+                    //сохраняем полное имя изображения изменяя его
+                    $image_full_name = $_SERVER['DOCUMENT_ROOT'].'/static/images/'.hash('crc32', date("m.d.y")).'.'.$image_format;
+
+
                     //тут надо будет добавить какую то проверку, чтобы если не удалось сохранить получить что - то
                     move_uploaded_file($image['tmp_name'], $image_full_name);
                 }
                 else
                 {
                     //Если не верный тип, возвращаем ошибку
-                    $error_json = '"error":"Image type don\'t supported';
+                    $error_json['error'] = "Image type don\'t supported";
                     http_response_code(500);
                     echo json_encode($error_json);
                     exit();
@@ -90,7 +95,7 @@
             {
                 //Как - то отметить то, что картинка не перадана
                 //Саша сказал, что все поля приходят, так что не надо
-                $error_json = '{"error":"File(image) not found"}';
+                $error_json['error'] =  'file not found';
                 http_response_code(500);
                 echo json_encode($error_json);
                 exit();
