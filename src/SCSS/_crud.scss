@@ -1,20 +1,23 @@
-.crud {
+.films,
+.categories {
+  padding-bottom: 40px;
+
   &__header {
     display: flex;
     justify-content: space-between;
-    max-width: 1100px;
-
-    p {
-      width: 20%;
-      max-width: 200px;
-      text-align: center;
-      position: relative;
-    }
+    max-width: 1080px;
 
     .id {
-      max-width: 35px;
+      max-width: 45px;
     }
 
+  }
+
+  &__nav {
+    width: 20%;
+    max-width: 200px;
+    text-align: center;
+    position: relative;
   }
 
   &__helper {
@@ -23,7 +26,8 @@
   }
 
   &__body {
-    max-width: 1100px;
+    //max-width: 1100px;
+
     .cannot-edit [caneditable] {
       background: transparent;
       border: none;
@@ -32,12 +36,65 @@
       cursor: default;
     }
 
+    .edit-button,
+    .save-button,
+    .remove-button,
+    .show-films-by-category {
+      position: relative;
+      outline: none;
+
+      &::before {
+        position: absolute;
+        content: '';
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 20px;
+        height: 19px;
+        background: red;
+      }
+    }
+
+    .edit-button {
+      display: none;
+
+      &::before {
+        background: url("../img/edit.svg") no-repeat center;
+      }
+    }
+
+    .show-films-by-category {
+      display: none;
+
+      &::before {
+        background: url("../img/eye.svg") no-repeat center;
+      }
+    }
+
+    .remove-button {
+      &::before {
+        background: url("../img/trash.svg") no-repeat center;
+      }
+    }
+
+    .save-button {
+      &::before {
+        background: url("../img/save.svg") no-repeat center;
+      }
+    }
+
     .cannot-edit {
       .save-button,
       .remove-button {
         opacity: .7;
         cursor: default;
+        display: none;
 
+      }
+
+      .edit-button,
+      .show-films-by-category {
+        display: block;
       }
     }
   }
@@ -59,8 +116,12 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    align-items: flex-start;
     margin-bottom: 10px;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 3px;
+
 
     input:disabled,
     textarea:disabled {
@@ -103,7 +164,7 @@
       max-width: 35px;
     }
 
-    .textarea {
+    textarea {
       max-width: 200px;
       min-width: 200px;
       min-height: 25px;
@@ -121,6 +182,7 @@
     }
 
   }
+
 
   &__file-wrap {
     width: 20%;
@@ -150,8 +212,11 @@
   }
 
   &__actions {
-    position: absolute;
+    //position: absolute;
     right: -100px;
+    width: 60px;
+    display: flex;
+    justify-content: flex-end;
 
     button {
       background: #1890ff;
@@ -160,6 +225,40 @@
       border-radius: 4px;
       padding: 3px 8px;
       cursor: pointer;
+      height: 24px;
+      width: 26px;
+      margin-left: 3px;
     }
   }
+}
+
+
+.categories {
+  &__header {
+    justify-content: space-between;
+    max-width: 280px;
+  }
+
+  &__id {
+    width: 20%;
+  }
+
+  .categories-description {
+    width: 100%;
+  }
+
+  &__body {
+    max-width: 380px;
+  }
+
+  &__item {
+    .category {
+      width: 100%;
+      max-width: 200px;
+    }
+  }
+}
+
+.highlight {
+  border-color: #5d18ff;
 }
