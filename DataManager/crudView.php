@@ -10,41 +10,60 @@ include "../Shared/header.php";
 ?>
 <main crud="true">
     <div class="container">
-        <div class="crud"></div>
-        <button class="crud__add" data-film-id="">Добaвить фильм</button>
-        <div class="error">
-            <span></span>
+        <div class="films">
+            <button class="films__add crud-add" data-film-id="">Добaвить фильм</button>
+            <div class="error error-films">
+                <span></span>
+            </div>
+            <div class="films__table">
+                <div class="films__header">
+                    <p class="id films__nav">id</p>
+                    <p class="films__nav">title</p>
+                    <p class="films__nav">description</p>
+                    <p class="films__nav">categorie_id</p>
+                    <p class="films__nav">image</p>
+                </div>
+                <div class="films__body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+            </div>
         </div>
-        <div class="crud__table">
-            <div class="crud__header">
-                <p class="id">id</p>
-                <p>title</p>
-                <p>description</p>
-                <p>categorie_id</p>
-                <p>image</p>
+        <div class="categories">
+            <button class="categories__add" data-category-id="">Добавить категорию</button>
+            <div class="error error-categories">
+                <span></span>
             </div>
-            <div class="crud__body">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+            <div class="categories__table">
+                <div class="categories__header">
+                    <p class="id categories__nav">id</p>
+                    <p class="categories__nav categories-description">description</p>
+                </div>
+                <div class="categories__body">
 
-                
-                
-                
-                
-                
-                
 
-                
+
+
+                </div>
             </div>
-
         </div>
     </div>
 </main>

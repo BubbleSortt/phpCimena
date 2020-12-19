@@ -1,5 +1,5 @@
 <?php
-/*
+
 $config = array(
     'title' => 'ФильмоПоиск',
     'db' => array(
@@ -9,9 +9,10 @@ $config = array(
         'name' => 'cinema_db',
     ),
 );
-//Development
-*/
 
+//Development
+
+/*
 $config = array(
     'title' => 'ФильмоПоиск',
     'db' => array(
@@ -22,5 +23,5 @@ $config = array(
     ),
 );
 //Production
-
+*/
 require "db.php";
