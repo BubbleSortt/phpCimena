@@ -25,36 +25,34 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="Build crud">
-      <change afterPath="$PROJECT_DIR$/src/img/edit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/eye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/pen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/save.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/trash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/fetch.js" afterDir="false" />
+    <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="Build full crud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.068dca935938be8f932d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.068dca935938be8f932d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.b6f912e9d529291da62b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.b6f912e9d529291da62b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.ce6d8dc93e4dbfcb1cf2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.ce6d8dc93e4dbfcb1cf2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/auth.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/calculator.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/crud.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/favorite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/eye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/trash.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/Sonic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/eye.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/header_bg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/news_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/pen.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/popular_item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/save.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/trash.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/Паразиты.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/lk.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/new-item.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/popular.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SCSS/_calculator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_calculator.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SCSS/_crud.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_crud.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crud.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/crud.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/crud.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/crud.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +152,9 @@
       <workItem from="1605868531203" duration="630000" />
       <workItem from="1605983015523" duration="4669000" />
       <workItem from="1606048331256" duration="863000" />
-      <workItem from="1606120362919" duration="5219000" />
+      <workItem from="1606120362919" duration="5613000" />
+      <workItem from="1608130595522" duration="471000" />
+      <workItem from="1608364955149" duration="565000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599916588826</created>
@@ -261,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605282242360</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Build full crud">
+      <created>1606138068381</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606138068381</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +329,8 @@
     <MESSAGE value="fix calculator" />
     <MESSAGE value="work please" />
     <MESSAGE value="Build crud" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build crud" />
+    <MESSAGE value="Build full crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build full crud" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1600849354667">
@@ -345,10 +353,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="195" y="79" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601478527019" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605282248112">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606138080740">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605282248112" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606138080740" />
     <state x="556" y="356" key="WebDeployment.AddServerDialog.v.1" timestamp="1600961300536">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
