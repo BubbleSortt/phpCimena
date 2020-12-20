@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="Build full crud">
+    <list default="true" id="51172a38-62a2-4bb6-9eb2-bd7f95481a7c" name="Default Changelist" comment="Build full crud №2">
+      <change afterPath="$PROJECT_DIR$/src/SCSS/_search.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.ce6d8dc93e4dbfcb1cf2.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.ce6d8dc93e4dbfcb1cf2.js" beforeDir="false" />
@@ -33,10 +35,6 @@
       <change beforePath="$PROJECT_DIR$/dist/calculator.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/crud.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/favorite.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/edit.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/eye.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/save.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/trash.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/Sonic.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/edit.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/img/eye.svg" beforeDir="false" />
@@ -52,7 +50,11 @@
       <change beforePath="$PROJECT_DIR$/dist/new-item.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/popular.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SCSS/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SCSS/_registration.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_registration.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SCSS/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +156,8 @@
       <workItem from="1606048331256" duration="863000" />
       <workItem from="1606120362919" duration="5613000" />
       <workItem from="1608130595522" duration="471000" />
-      <workItem from="1608364955149" duration="565000" />
+      <workItem from="1608364955149" duration="779000" />
+      <workItem from="1608475373222" duration="5823000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599916588826</created>
@@ -268,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606138068381</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Build full crud №2">
+      <created>1608365732010</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608365732010</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,64 +340,7 @@
     <MESSAGE value="work please" />
     <MESSAGE value="Build crud" />
     <MESSAGE value="Build full crud" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build full crud" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="354" y="135" key="#Inspections" timestamp="1600849354667">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="354" y="135" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1600849354667" />
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605516958484">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1605516958484" />
-    <state x="584" y="354" key="Github.ShareDialog" timestamp="1599916390028">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="584" y="354" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1599916390028" />
-    <state x="144" y="79" key="MergeDialog" timestamp="1602060793316">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="144" y="79" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1602060793316" />
-    <state x="195" y="79" key="SettingsEditor" timestamp="1601478527019">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="195" y="79" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1601478527019" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606138080740">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606138080740" />
-    <state x="556" y="356" key="WebDeployment.AddServerDialog.v.1" timestamp="1600961300536">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="556" y="356" key="WebDeployment.AddServerDialog.v.1/0.0.1440.900@0.0.1440.900" timestamp="1600961300536" />
-    <state x="488" y="191" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604831259665">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="488" y="191" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1440.900@0.0.1440.900" timestamp="1604831259665" />
-    <state x="517" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600967993364">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="517" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1600967993364" />
-    <state x="418" y="205" width="604" height="490" key="find.popup" timestamp="1605715762802">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="418" y="205" width="604" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1605715762802" />
-    <state x="468" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604830490040">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="468" y="170" key="git4idea.branch.GitSmartOperationDialog/0.0.1440.900@0.0.1440.900" timestamp="1604830490040" />
-    <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599916433931">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1599916433931" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1603276154591">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603276154591" />
-    <state x="450" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603270142216">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="450" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.900@0.0.1440.900" timestamp="1603270142216" />
+    <MESSAGE value="Build full crud №2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build full crud №2" />
   </component>
 </project>

@@ -23,6 +23,16 @@
     }
   }
 
+  &__vk {
+    border: none;
+    background: #1686ef;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+  }
+
   &__label {
     margin-bottom: 5px;
   }

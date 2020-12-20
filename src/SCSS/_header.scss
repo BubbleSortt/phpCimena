@@ -7,10 +7,12 @@
     display: flex;
     padding: 25px 0;
     justify-content: space-between;
+    align-items: center;
   }
 
   &__nav {
-
+  display: flex;
+    align-items: center;
   }
 
   &__link {
