@@ -8,8 +8,13 @@ $config = array(
         'password' => '',
         'name' => 'cinema_db',
     ),
+    'vk' => array(
+        'app_id' => '7705739',
+        'url_script' => 'http://cinema.loc/Login/signinVk.php',
+        'secret_key' => 't1RWhVZxLq9UKaWOfKvs'
+    )
 );
-
+$vk_auth_link =
 //Development
 
 /*
